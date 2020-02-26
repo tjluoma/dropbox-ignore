@@ -8,7 +8,7 @@ Quoting the relevant (macOS) portion of [How to set a Dropbox file to be ignored
 >
 > 2. Type
 >
-> 		xattr -w com.dropbox.ignored 1
+> 		`xattr -w com.dropbox.ignored 1`
 >
 > 3.	Type the location of the file next to that.
 >
@@ -16,7 +16,7 @@ Quoting the relevant (macOS) portion of [How to set a Dropbox file to be ignored
 >
 > 	- It should look something like this:
 >
-> 			xattr -w com.dropbox.ignored 1 /Users/yourname/Dropbox/YourFileName.pdf
+> 		`xattr -w com.dropbox.ignored 1 /Users/yourname/Dropbox/YourFileName.pdf`
 >
 > 4. Press return on your keyboard.
 >
